@@ -187,8 +187,8 @@
 </form>
 
 <h2>社会保険料総額</h2>
-<p>月間の社会保険料＝<label id="month">0</label></p>
-<p>年間の社会保険料＝<label id="annual">0</label></p>
+<p>月間の社会保険料＝&emsp;<big><label id="month">0</label></big>円</p>
+<p>年間の社会保険料＝&emsp;<big><label id="annual">0</label></big>円</p>
 <script>
 document.getElementById("b").addEventListener("change",function(){document.getElementById("month").innerText = parseInt(document.getElementById("monthlyheal").value) + parseInt(document.getElementById("monhealthins").value) + parseInt(document.getElementById("result").value);});
 document.getElementById("b").addEventListener("change",function(){document.getElementById("annual").innerText = parseInt(document.getElementById("annualheal").value) + parseInt(document.getElementById("annhealthins").value) + parseInt((document.getElementById("result").value) * 12);});

@@ -91,7 +91,7 @@
   <p>2.&emsp;ふるさと納税ワンストップ特例の申請書と必要書類を提出する</p>
   <p>（申込のたびに寄附先の自治体へ郵送しましょう。翌年1月10日必着！）</p>
   <p>→&emsp;翌年の住民税が減額されます。</p></fieldset>
-<p>あなたのふるさと納税の控除限度額は、（個人住民税所得割額&ensp;×&ensp;20％）÷（100％－10％－&ensp;所得税率&ensp;×&ensp;復興特別所得税率1.021）＋自己負担2000円＝<label id="hometown_tax">「&emsp;」</label>円です。</p>
+<p>あなたのふるさと納税の控除限度額は、（個人住民税所得割額&ensp;×&ensp;20％）÷（100％－10％－&ensp;所得税率&ensp;×&ensp;復興特別所得税率1.021）＋自己負担2000円＝&ensp;<big><label id="hometown_tax">「&emsp;」</label></big>円&emsp;です。</p>
 <script>
 function calc5(income, social, percentage, deduction, equal) {
     var municipal_tax = Math.floor((income - 430000 - social) * percentage - deduction + parseInt(equal)) * 0.01; document.getElementById("resident_tax").value = Math.floor(municipal_tax * 100);

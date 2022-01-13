@@ -90,10 +90,13 @@ header {
 	clear: both;
 	margin-bottom: 20px;
 	color: #fff;		/*文字色*/
-	padding: 10px 20px;	/*上下、左右への余白*/
+	padding: 7px 20px;	/*上下、左右への余白*/
 	background: #b4ae99;	/*背景色*/
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
+	font-size: large;
+	font-family: sans-serif;
 }
+
 /*コンテンツのh3タグの設定*/
 #contents h3 {
 	clear: both;
